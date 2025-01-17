@@ -1,0 +1,91 @@
+.book-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    perspective: 600px;
+  }
+  
+  @keyframes initAnimation {
+    0% {
+      transform: rotateY(0deg);
+    }
+    100% {
+      transform: rotateY(-30deg);
+    }
+  }
+  
+  .book {
+    width: 200px;
+    height: 300px;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: rotateY(-30deg);
+    transition: 1s ease;
+    animation: 1s ease 0s 1 initAnimation;
+  }
+  
+  .book-container:hover .book, 
+  .book-container:focus .book {
+    transform: rotateY(0deg);
+  }
+  
+  .book > :first-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: red;
+    width: 200px;
+    height: 300px;
+    transform: translateZ(15px);
+    background-color: #01060f;
+    border-radius: 0 2px 2px 0;
+    /* box-shadow: 5px 5px 20px #666; */
+  }
+  
+  .book::before {
+    position: absolute;
+    content: ' ';
+    background-color: blue;
+    left: 0;
+    top: 1px;
+    width: 28px;
+    height: 298px;
+    transform: translateX(184px) rotateY(90deg);
+    background: linear-gradient(90deg, 
+    #d2b48c 90%,      /* Tan (Old Paper Color) */
+    #e8d7ba 5%,      /* Light Beige */
+    #f2e9d7 10%,     /* Cream */
+    #e8d7ba 15%,     /* Light Beige */
+    #f2e9d7 20%,     /* Cream */
+    #e8d7ba 25%,     /* Light Beige */
+    #f2e9d7 30%,     /* Cream */
+    #e8d7ba 35%,     /* Light Beige */
+    #f2e9d7 40%,     /* Cream */
+    #e8d7ba 45%,     /* Light Beige */
+    #f2e9d7 50%,     /* Cream */
+    #e8d7ba 55%,     /* Light Beige */
+    #f2e9d7 60%,     /* Cream */
+    #e8d7ba 65%,     /* Light Beige */
+    #f2e9d7 70%,     /* Cream */
+    #e8d7ba 75%,     /* Light Beige */
+    #f2e9d7 80%,     /* Cream */
+    #e8d7ba 85%,     /* Light Beige */
+    #f2e9d7 90%,     /* Cream */
+    #e8d7ba 95%,     /* Light Beige */
+    #f2e9d7 100%      /* Cream */
+      );
+  }
+  
+  .book::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: ' ';
+    width: 200px;
+    height: 300px;
+    transform: translateZ(-15px);
+    background-color: #362800;
+    border-radius: 0 2px 2px 0;
+    /* box-shadow: -10px 0 50px 10px #666; */
+  }
+  
