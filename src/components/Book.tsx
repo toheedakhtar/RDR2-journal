@@ -1,12 +1,21 @@
 import './Book.css'
 
-const Book = () => {
+interface BookProps {
+    open : () => void;
+}
+
+const Book : React.FC<BookProps>  = ({open}) => {
+
+    const toggleReader = (e : React.MouseEvent<HTMLAnchorElement>) => {
+        e.preventDefault();
+        open();
+    }
+
     return (
-        <div className='flex justify-center items-start m-14'>
+        <div className='flex justify-center items-start'>
             <a className="book-container"
                 href="../assets/journal.png"
-                target="_blank"
-                rel="noreferrer noopener">
+                rel="noreferrer noopener" onClick={toggleReader}>
                 <div className="book">
                     <img
                         alt=""
