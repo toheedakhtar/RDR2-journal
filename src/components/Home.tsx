@@ -38,7 +38,9 @@ const Home: React.FC<HomeProps> = ({ toggle }) => {
 
                         <p className="font-rd text-2xl text-center text-slate-100 mb-5">
 
-                            Welcome to the Red Dead Journal, a tribute to the legendary Arthur Morgan and his iconic journal from Red Dead Redemption 2. Immerse yourself in the reflections, sketches, and musings of a gunslinger navigating the rugged frontier. This site not only allows you to read Arthur’s journal reliving his journey through the untamed West—but also gives you the space to create your own story. Inspired by the game’s rich themes and design, you can write your own entries, blending your thoughts with the rustic charm of a timeless outlaw’s diary. Begin your adventure and make your mark on these pages, just as Arthur did.
+                        Here's Arthur Morgan's journal - all of it. No need to pause the game or search through YouTube videos anymore. Just scroll through and read at your own pace.
+                        We all know how special this journal is - it's not just a collection of mission notes or a gameplay log. It's where Arthur truly comes alive, where every sketch and scribbled thought shows us who he really is beyond the missions and shootouts. From his earliest days with Dutch's gang to his final entries, this journal tells the real story.
+                        Reading it in-game means juggling menus and controls, and hunting for specific moments on YouTube is a pain. So here it is - the whole journal, ready to read whenever you want to revisit Arthur's journey or just take in his thoughts about the changing world around him.
 
                         </p>
                         </div>
