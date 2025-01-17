@@ -10,7 +10,7 @@ const Book = () => {
                 <div className="book">
                     <img
                         alt=""
-                        src="https://i.postimg.cc/KcBdSdCg/Untitled-design.png"/>
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9jouyB4kvXAoiJCEvo0r92B7HseIszF0vHQ&s"/>
                 </div>
             </a>
         </div>
