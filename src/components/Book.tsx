@@ -18,7 +18,7 @@ const Book : React.FC<BookProps>  = ({open}) => {
                 <div className="book">
                     <img
                         alt=""
-                        src="journal.png"/>
+                        src="image.png"/>
                 </div>
             </div>
         </div>

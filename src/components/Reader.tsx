@@ -98,7 +98,7 @@ const Reader: React.FC = () => {
     const [height, setHeight] = useState<number>(width * 1.5); // Maintain a 2:3 aspect ratio
 
     // Loading states
-    const [loading, setLoading] = useState(false);
+    // const [loading, setLoading] = useState(false);
     // const [loadedPages, setLoadedPages] = useState<number>(0);
 
     // useEffect(() => {
@@ -130,11 +130,11 @@ const Reader: React.FC = () => {
 
     return (
         <div className="h-screen w-screen overflow-hidden">
-            {loading ? (
+            {/* {loading ? (
                 <div className="flex items-center justify-center h-full text-lg">
                     Loading...
                 </div>
-            ) : (
+            ) : ( */}
                 <div className="h-full w-full flex justify-center drop-shadow-2xl">
                     <HTMLFlipBook width={width} height={height}>
                         {pages.map((image, index) => (
@@ -150,7 +150,7 @@ const Reader: React.FC = () => {
                         ))}
                     </HTMLFlipBook>
                 </div>
-            )}
+            {/* )} */}
         </div>
     );
 };

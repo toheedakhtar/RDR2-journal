@@ -38,9 +38,11 @@ const Home: React.FC<HomeProps> = ({ toggle }) => {
 
                         <p className="font-rd text-2xl text-center text-slate-100 mb-5">
 
-                        Here's Arthur Morgan's journal - all of it. No need to pause the game or search through YouTube videos anymore. Just scroll through and read at your own pace.
-                        We all know how special this journal is - it's not just a collection of mission notes or a gameplay log. It's where Arthur truly comes alive, where every sketch and scribbled thought shows us who he really is beyond the missions and shootouts. From his earliest days with Dutch's gang to his final entries, this journal tells the real story.
-                        Reading it in-game means juggling menus and controls, and hunting for specific moments on YouTube is a pain. So here it is - the whole journal, ready to read whenever you want to revisit Arthur's journey or just take in his thoughts about the changing world around him.
+                        THIS IS ARTHUR MORGAN'S JOURNAL FROM RED DEAD REDEMPTION 2. IT CONTAINS ALL THE ENTERIES OF THE STORY.
+                        HUGE SHOUTOUT TO <a href="https://linktr.ee/aicosu" className="text-red-700 underline">SANTA MARIA</a> FOR CREATING <a href="https://www.aicosu-cosplays.com/arthurmorgan" className="text-red-700 underline">photos</a> and pdf OF THE JOURNAL. THIS WOULD BE SO MUCH MORE TIMECONSUMING AND DIFFICULT WITHOUT THESE.
+                        THIS IS FULLY FREE AND IS DONE ONLY FOR THE PURPOSE OF GIVING SOMETHING TO RDR2 COMMUNITY AND IT WAS FUN.<br/>
+                        @ <a href="https://bit.ly/toheeed" className="text-red-700">TOHEED AKHTAR</a> 
+                        
 
                         </p>
                         </div>
