@@ -135,12 +135,12 @@ const Reader: React.FC = () => {
                     Loading...
                 </div>
             ) : ( */}
-                <div className="h-full w-full flex justify-center drop-shadow-2xl">
+                <div className="h-full w-full flex justify-center drop-shadow-2xl animate-pan">
                     <HTMLFlipBook width={width} height={height}>
                         {pages.map((image, index) => (
                             <div
                                 key={index}
-                                className="page bg-[#f5e7c4] flex justify-center items-center">
+                                className="bg-[#f5e7c4] flex justify-center items-center">
                                 <img
                                     src={image}
                                     alt={`Page ${index + 1}`}

@@ -7,7 +7,7 @@
 
 @keyframes initAnimation {
   0% {
-    transform: rotateY(-30deg);
+    transform: rotateY(-45deg);
   }
 
   100% {
@@ -20,14 +20,14 @@
   height: 300px;
   position: relative;
   transform-style: preserve-3d;
-  transform: rotateY(-20deg);
+  transform: rotateY(-14deg);
   transition: 1s ease;
-  animation: 1s ease 0s 1 initAnimation;
+  animation: 1.5s ease 0s 1 initAnimation;
 }
 
 .book-container:hover .book,
 .book-container:focus .book {
-  transform: rotateY(-30deg);
+  transform: rotateY(-45deg);
 }
 
 .book> :first-child {

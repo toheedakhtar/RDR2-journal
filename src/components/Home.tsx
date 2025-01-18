@@ -21,8 +21,8 @@ const Home: React.FC<HomeProps> = ({ toggle }) => {
     return (
         <div className="h-screen w-screen">
             {
-                loading ? (<div> bg is loading</div>) : (
-                    <div className="h-screen bg-[url(/homeCover.jpg)] bg-cover flex flex-col items-center justify-between">
+                loading ? (<div className="bg-red-700 text-neutral-50 flex justify-center items-center">Loading...</div>) : (
+                    <div className="h-screen bg-[url(/homeCover.jpg)] bg-cover flex flex-col items-center justify-between transition ease-in">
                         <div className="py-5 flex flex-col justify-center">
                             <div className="text-6xl text-center text-slate-100 drop-shadow-[0_7.2px_0.2px_rgba(-10,4,6,8)] font-rd">RED</div>
                             <div className="text-6xl text-center text-slate-100 drop-shadow-[0_7.2px_0.2px_rgba(-10,4,6,8)] font-rd">DEAD</div>
