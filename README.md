@@ -1,7 +1,8 @@
 # Red Dead Journal
 
 A faithful digital replica of Arthur Morgan's journal from *Red Dead Redemption 2*.  
-This project captures all entries from the game's story mode—excluding animals, fauna, and strangers—for an immersive and nostalgic experience.
+This project captures all entries from the game's story mode—excluding animals, fauna, and strangers—for an immersive and nostalgic experience.  
+[LIVE LINK](https://rdr2journal.vercel.app/)
 
 ---
 
