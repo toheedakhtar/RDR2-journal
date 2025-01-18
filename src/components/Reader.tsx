@@ -136,7 +136,30 @@ const Reader: React.FC = () => {
                 </div>
             ) : ( */}
                 <div className="h-full w-full flex justify-center drop-shadow-2xl animate-pan">
-                    <HTMLFlipBook width={width} height={height}>
+                    <HTMLFlipBook width={width}
+                        height={height}
+                        size="fixed"
+                        minWidth={0}
+                        maxWidth={0}
+                        minHeight={0}
+                        maxHeight={0}
+                        drawShadow={true}
+                        flippingTime={1000}
+                        usePortrait={true}
+                        startZIndex={0}
+                        autoSize={true}
+                        maxShadowOpacity={1}
+                        showCover={false}
+                        mobileScrollSupport={true}
+                        swipeDistance={30}
+                        clickEventForward={true}
+                        useMouseEvents={true}
+                        renderOnlyPageLengthChange={false}
+                        className=""
+                        style={{}}
+                        startPage={0}
+                        showPageCorners={true}
+                        disableFlipByClick={false}>
                         {pages.map((image, index) => (
                             <div
                                 key={index}
